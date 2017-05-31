@@ -2,66 +2,194 @@
 <html>
 <head>
     <title>Kaffeparty</title>
-	<meta charset="utf-8" />
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <slink href="Content/bootstrap-theme.css" rel="stylesheet" />
     <link href="Content/style.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+
+    <slink href="Content/bootstrap.min.css" rel="stylesheet" />
+    <slink href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+        <slink href="Content/animate.css" rel="stylesheet" />
 </head>
 <body>
-    <header><h1>Header</h1></header>
-    <img src="https://www.embrapa.br/documents/10180/8494472/Gr%C3%A3os+de+caf%C3%A9%20com+folha/c64283f6-ad46-48b7-9dee-8b40535dbe59?t=1450807302982" />colors
-    <img src="https://image.flaticon.com/icons/png/512/31/31082.png" />logga
+    <script src="scripts/jquery-1.9.1.js"></script>
+    <script src="scripts/bootstrap.js"></script>
 
-    <p>
-    nytänkande 
-    ungt företag 
-    kaffe och kaffemaskiner
-        kaffeparty-event till både privatpersoner och företag. På kaffepartyt
-        presenteras en mängd olika kaffesorter som de får smaka tillsammans med mörk choklad och ges tillfälle att köpa produkterna.
-    
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img class="img-thumblogo" src="images/31082.png" alt="https://image.flaticon.com/icons/png/512/31/31082.png" />
+                    <a class="navbar-brand" href="index.html">Kaffeparty</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-fixed-top" id="bs-example-navbar-collapse-1">
+                    <div class="navbar-right">
+                        <ul class="nav navbar-nav ">
+                            <li class="dropdown">
+                                <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kaffeparty <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.html#WhoWeAre">Vilka är vi </a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="index.html#WhatWeDo">Vad gör vi</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="index.html#WhyUs">Varför oss</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="index.html#LetsParty">Kaffeparty, så fungerar det</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav ">
+                            <li class="dropdown">
+                                <a href="products.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Produkter <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="products.html#Machines">Kaffemaskiner</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="products.html#Coffeparty">Kaffeparty</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav ">
+                            <li class="dropdown">
+                                <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Om oss <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="about.html#TheCompany">Företaget </a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#about.html#Contact">Kontakt </a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="images.html">Images </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- >form class="navbar-form navbar-default">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Sök">
+                            </div>
+                            <button type="submit" class="btn btn-default">Sök</button>
+                        </form-->
+                    </div>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
 
-    Ni skall skapa en webbsida med tre sidor: “Index”, “Produkter” och “Om Oss”
-    För samtliga sidor(3st):
-    ● Ett passande och enhetligt färgtema
-    ● Header med logga eller företagsnamn ( eller båda).
-    ● Navbar med länkar till samtliga sidor
-    ● Footer med copyright datum och webmaster
-         
-    Index:
-    ● Updelad i fyra huvud-divar
-    ○ Vilka är vi?
-    ○ Vad gör vi?
-    ○ Varför oss?
-    ○ Kaffeparty, så fungerar det!
 
-    ● Dess divar skall innehålla utfyllnadstexter ( Lorem Ipsum ) och placeholderbilder.
-    En snabb googlesökning ger bra bilder för en prototyp, men om ni har ont om tid
-    eller letar väldigt specifika storlekar är placehold.it ett smidigt tips.
 
-    Produkter:
-    ● Separera Kaffeparty och Kaffemaskiner.
-    ● Lista kaffemaskiner, olika modeller med texter och bild.
-  
-    ● Layouten ska vara delad i två delar.
-        ○ Kaffemaskiner
+
+
+
+
+    <simg src="https://www.embrapa.br/documents/10180/8494472/Gr%C3%A3os+de+caf%C3%A9%20com+folha/c64283f6-ad46-48b7-9dee-8b40535dbe59?t=1450807302982" />colors
+    <simg src="https://image.flaticon.com/icons/png/512/31/31082.png" />logga
+    <div class="container">
+        <div class="row">
+            <aside class="col-sm-2">
+                <div class="range-list">
+                    <h4>
+                        <a href="#WhoWeAre">Vilka är vi?</a>
+                    </h4>
+                </div>
+                <div class="range-list">
+                    <h4>
+                        <a href="*#WhatWeDo">Vad gör vi?</a>
+                    </h4>
+                </div>
+                <div class="range-list">
+                    <h4>
+                        <a href="#WhyUs">Varför oss?</a>
+                    </h4>
+                </div>
+                <div class="range-list">
+                    <h4>
+                        <a href="#LetsParty">Så funkar det!</a>
+                    </h4>
+                </div>
+            </aside>
+
+            <section class="col-sm-10">
+
+                <article>
+                    <div class="jumbotron">
+                        <a name="WhoWeAre"></a><h2>Vilka är vi?</h2>
+                        <img class="img-thumbnail" src="images/451778840_1280x720.jpg" alt="http://i.vimeocdn.com/video/451778840_1280x720.jpg" />
+
+                    </div>
+                    <p class="col-lg-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet pulvinar massa, vitae vehicula lacus. Aenean tellus dui, pretium ut purus sed, congue imperdiet dui. Donec diam urna, euismod nec laoreet a, laoreet et sem. Vestibulum in consectetur massa. Maecenas tempus mattis elit a tincidunt. Quisque ullamcorper dignissim semper. Nulla quis condimentum purus, ac consectetur erat. Proin vitae libero ligula. Nunc iaculis iaculis varius. Morbi ex erat, scelerisque a elementum ullamcorper, commodo ut felis. Vivamus egestas purus eu turpis pulvinar, ut accumsan quam scelerisque.
+                    </p>
+
+                </article>
+                <article>
+                    <div class="jumbotron">
+                        <a name="WhatWeDo"></a><h2>Vad gör vi?</h2>
+                        <img class="img-thumbnail" src="images/coffee-flower-reading-magazine.jpg" alt="https://www.pexels.com/photo/coffee-magazine-6067/" />
+
+                    </div><p class="col-lg-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet pulvinar massa, vitae vehicula lacus. Aenean tellus dui, pretium ut purus sed, congue imperdiet dui. Donec diam urna, euismod nec laoreet a, laoreet et sem. Vestibulum in consectetur massa. Maecenas tempus mattis elit a tincidunt. Quisque ullamcorper dignissim semper. Nulla quis condimentum purus, ac consectetur erat. Proin vitae libero ligula. Nunc iaculis iaculis varius. Morbi ex erat, scelerisque a elementum ullamcorper, commodo ut felis. Vivamus egestas purus eu turpis pulvinar, ut accumsan quam scelerisque.
+
+                    </p>
+                </article><article>
+                    <div class="jumbotron">
+                        <a name="WhyUs"></a><h2>Varför oss?</h2>
+                        <img class="img-thumbnail" src="images/Coffee_and_cake_(8400386474).jpg" alt="https://commons.wikimedia.org/wiki/File:Coffee_and_cake_(8400386474).jpg" />
+
+                    </div><p class="col-lg-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet pulvinar massa, vitae vehicula lacus. Aenean tellus dui, pretium ut purus sed, congue imperdiet dui. Donec diam urna, euismod nec laoreet a, laoreet et sem. Vestibulum in consectetur massa. Maecenas tempus mattis elit a tincidunt. Quisque ullamcorper dignissim semper. Nulla quis condimentum purus, ac consectetur erat. Proin vitae libero ligula. Nunc iaculis iaculis varius. Morbi ex erat, scelerisque a elementum ullamcorper, commodo ut felis. Vivamus egestas purus eu turpis pulvinar, ut accumsan quam scelerisque.
+
+                    </p>
+                </article><article>
+                    <div class="jumbotron">
+                        <a name="LetsParty"></a> <h2>Kaffeparty, så fungerar det!</h2>
+                        <img class="img-thumbnail" src="images/pexels-photo-302899.jpeg" alt="https://www.pexels.com/photo/art-blur-cappuccino-close-up-302899/" />
+
+                    </div><p class="col-lg-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet pulvinar massa, vitae vehicula lacus. Aenean tellus dui, pretium ut purus sed, congue imperdiet dui. Donec diam urna, euismod nec laoreet a, laoreet et sem. Vestibulum in consectetur massa. Maecenas tempus mattis elit a tincidunt. Quisque ullamcorper dignissim semper. Nulla quis condimentum purus, ac consectetur erat. Proin vitae libero ligula. Nunc iaculis iaculis varius. Morbi ex erat, scelerisque a elementum ullamcorper, commodo ut felis. Vivamus egestas purus eu turpis pulvinar, ut accumsan quam scelerisque.
+
+                    </p>
+                </article>
+            </section>
+        </div>
+        <article>
+
+            nytänkande
+            ungt företag
+            kaffe och kaffemaskiner
+            kaffeparty-event till både privatpersoner och företag. På kaffepartyt
+            presenteras en mängd olika kaffesorter som de får smaka tillsammans med mörk choklad och ges tillfälle att köpa produkterna.
+
+
+            Ni skall skapa en webbsida med tre sidor: “Index”, “Produkter” och “Om Oss”
+            För samtliga sidor(3st):
+            ● Ett passande och enhetligt färgtema
+   
+            Produkter:
+            ● Separera Kaffeparty och Kaffemaskiner.
+            ● Lista kaffemaskiner, olika modeller med texter och bild.
+
+            ● Layouten ska vara delad i två delar.
+            ○ Kaffemaskiner
             ■ Listar kaffemaskiner i ett rutnät
             ■ Information, modell och pris syns tydligt
-        ○ Kaffeparty
+            ○ Kaffeparty
             ■ Uppdelad i två delar: Företag och Privatpersoner
- 
-     Om oss/Kontakt:
-    ● Innehåller mer information om företaget.
-    ● Kontaktuppgifter med bild, telefonnummer, namn och e-postför VD
-    ● Kontaktuppgifter med bild, telefonnummer, namn och mejl för HR-ansvarig
- 
-    Sidan skall fungera lika bra på mobil som på en vanlig dator.
 
-</p>
-    <div id="navbar">Navbar. Länkar till samtliga sidor</div>
-    <div id="aboutus">Vilka är vi</div>
-    <div id="whatwedo">Vad gör vi</div>
-    <div id="whyus">Varför oss</div>
-    <div id="coffeeparty">Kaffeparty</div>
+
+
+            Sidan skall fungera lika bra på mobil som på en vanlig dator.
+
+
+        </article>
+        <img src="https://www.embrapa.br/documents/10180/8494472/Gr%C3%A3os+de+caf%C3%A9%20com+folha/c64283f6-ad46-48b7-9dee-8b40535dbe59?t=1450807302982" />colors
+
+
+    </div>
     <footer><h1>@2017 Footer</h1></footer>
 </body>
 </html>

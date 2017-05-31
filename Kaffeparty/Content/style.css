@@ -1,8 +1,27 @@
 ﻿body {
     font-family: Alegreya, sans-serif;
+     
+    background-image: url('../simages/roasted-coffee-beans-1492089433ZcQ.jpg' );
+    background-color:#ffffff;
+opacity:.3;
+
 }
+container{
+    }
 header, footer{
     text-align:center;
     color:#ddd;
     background-color:#333;
+}
+div.jumbotron img{
+    max-width:100px;
+}
+.img-thumbnail{
+    max-width:350px;
+}
+.img-thumblogo{
+    max-width:75px;
+}
+img.thumbnail{
+    max-width:100px;
 }

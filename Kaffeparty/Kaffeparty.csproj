@@ -94,10 +94,25 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="Content\animate.css" />
+    <Content Include="images.html" />
+    <Content Include="images\31082.png" />
+    <Content Include="images\451778840_1280x720.jpg" />
+    <Content Include="images\5557597596_63fcde0040_o.jpg" />
+    <Content Include="images\coffee-cup-espresso-colorful.jpg" />
+    <Content Include="images\coffee-flower-reading-magazine.jpg" />
+    <Content Include="images\Coffee_and_cake_%288400386474%29.jpg" />
+    <Content Include="images\holiday-coffee-holidays-christmas.jpg" />
+    <Content Include="images\pexels-photo-208963.jpeg" />
+    <Content Include="images\pexels-photo-302899.jpeg" />
+    <Content Include="images\roasted-coffee-beans-1492089433ZcQ.jpg" />
+    <Content Include="images\spring-coffee-time.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="products.html" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
