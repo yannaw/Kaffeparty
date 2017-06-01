@@ -4,7 +4,6 @@
     background-image: url('../simages/roasted-coffee-beans-1492089433ZcQ.jpg' );
     background-color:#ffffff;
 opacity:.3;
-
 }
 container{
     }
@@ -12,6 +11,7 @@ header, footer{
     text-align:center;
     color:#ddd;
     background-color:#333;
+    margin:50px 0 100px 0;
 }
 div.jumbotron img{
     max-width:100px;
